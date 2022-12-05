@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Food Services</title>
+    <meta
+      name="description"
+      content="Simplified Bootstrap template with sticky menu"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/sticky-menu.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-ex1-collapse"
+          >
+            <span class="sr-only">Toggle menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Home option -->
+          <a class="navbar-brand page-scroll" href="#page-top" id="cafname">Cafeteria</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">CK2</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#whatwedo">Kayak</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">The Garden</a>
+            </li>
+          </p>
+        </div>
+        <!-- .navbar-collapse -->
+      </div>
+      <!-- .container -->
+    </nav>
+    <!-- Cafe Menu (David will work on this using the web scraper)  -->
+    <section id="welcome" class="welcome-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>The Cafeteria</h1>
+          </br>
+            <div class="dropdown">
+            <input type="radio" name="group" id="Sunday" class="button" onclick="displaySunday()">
+            <label for="Sunday" class="label">Sunday</label>
+            <input type="radio" name="group" id="Monday" class="button" onclick="displayMonday()">
+            <label for="Sunday" class="label">Monday</label>
+            <input type="radio" name="group" id="Tuesday" class="button" onclick="displayTuesday()">
+            <label for="Sunday" class="label">Tuesday</label>
+            <input type="radio" name="group" id="Wednesday" class="button" onclick="displayWednesday()">
+            <label for="Sunday" class="label">Wednesday</label>
+            <input type="radio" name="group" id="Thursday" class="button" onclick="displayThursday()">
+            <label for="Sunday" class="label">Thursday</label>
+            <input type="radio" name="group" id="Friday" class="button" onclick="displayFriday()">
+            <label for="Sunday" class="label">Friday</label>
+            <input type="radio" name="group" id="Sabbath" class="button" onclick="displaySabbath()">
+            <label for="Sunday" class="label">Sabbath</label>
+            <div class="dropdown-content">
+            <div id="borderForDisplay">
+              <p id="Finaldisplay"></p>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CK2 Menu-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>CK2 Menu</h1>
+          </div>
+          <div>
+        <h2 class="paragraph", align="left">Lunch & Dinner (11am-8pm)</h2> 
+        <h3 class="p2", align="left">Kari with &#128151 $6.29</h3> 
+        <h3 class="p3", align="left">Naan, Hummus, Falafel, Cumcumbers, Tomato, Chick Patty</h3>
+        <h3 class="p2", align="left">Chicken S.L.T $5.89</h3>
+        <h3 class="p3", align="left">Croissant, Stripples, Lettuce, Tomato, Chik Patty </h3>
+        <h3 class="p2", align="left">Lomino $4.49</h3>
+        <h3 class="p3", align="left">Toast, Baco Bits, Fried Egg, Lettuce, Tomato, Cheese</h3>
+        <h3 class="p2", align="left">Besst Wrap $4.99</h3>
+        <h3 class="p3", align="left">Tortilla, Ranch Cream, Cheese, Griller, Provolone, Tomato, Lettuce</h3>
+        <h3 class="p2", align="left">Bietz Burrito $5.89</h3>
+        <h3 class="p3", align="left">Refriend Beans, Rice, Cheese, Salsa, Sour Cream, Lettuce, Pico de Gallo</h3>
+        <h3 class="p2", align="left">Buffalo Chicken $5.99</h3>
+        <h3 class="p3", align="left">Chik Patty, Provolone, Buffalo Sauce, Tomato, Lettuce, Onion</h3>
+        <h3 class="p2", align="left">Feta Wrap $5.69</h3>
+        <h3 class="p3", align="left">Tomato Basil Wrap,Hummus, Feta, Cream Peppers, Tomato, Lettuce</h3>
+        <h3 class="p2", align="left">Pretzel Burger $6.29</h3>
+        <h3 class="p3", align="left">Pretzel Bun, Griller, Swiss, Tomato, Pickles, House Sauce</h3>
+        <h3 class="p2", align="left">Grilled Cheese $3.29</h3>
+        <h3 class="p3", align="left">Wheat Bread, Swiss, Muenster</h3>
+        <h3 class="p2", align="left">Turkey Panini $6.29</h3>
+        <h3 class="p3", align="left">Homemade Bread, Turkey, Stripples, Provolone, Lettuce, Tomato</h3>
+        <h3 class="p2", align="left">Quesadilla $2.89 Half $4.49 Whole</h3>
+        <h3 class="p3", align="left">(Additional Toppings are extra $)<br>Griller Crumbles, Cream Peppers, Onions, Tomatoes, Pesto</h3>
+        <h3 class="p2", align="left">Blue Cheese Burger $5.89</h3>
+        <h3 class="p3", align="left">Bun Griller, Bleu Cheese, Lettuce, Tomato, BBQ Sauce, Fried Onions</h3>
+        <h3 class="p2", align="left">Garden of Eden $4.89</h3>
+        <h3 class="p3", align="left">Hoagie, Lettuce, Tomato, Onion, Pickles, Cream Peppers, Olives, Guac</h3>
+        <h3 class="p2", align="left">Sam's Chicken Sandwich $6.29</h3>
+        <h3 class="p3", align="left">Bun, Sam's Chicken, Lettuce, Tomato</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--The Kayak Menu -->
+    <section id="whatwedo" class="whatwedo-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>The Kayak</h1>
+            <p>Create Your Own Smoothie</p>
+
+            <p class="one">Smoothie Size: 12 or 16 oz</p>
+            <p class="two">Fruits</p>
+              <p>Banana</p>
+              <p>Blueberry</p>
+              <p>Mango</p>
+              <p>Peach</p>
+              <p>Raspberry</p>
+              <p>Strawberry</p>
+              <p>Pineapple</p>
+
+            <p class="three">Smoothie Base</p>
+              <p>Soy Milk
+                <p>Chocolate</p>
+                <p>Vanilla</p>
+              </p>
+              <p>Coconut Milk</p>
+              <p>Greek Yogurt</p>
+              <p>Orange Juice</p>
+              <p>Pineapple</p>
+              <p>Almond Milk
+                <p>Dark Chocolate</p>
+                <p>Vanilla</p>
+              </p>
+              <p>Water</p>
+           
+            <p class="four">Add-On's</p>
+              <p>Vegan Protein Powder</p>
+              <p>Protein Powder
+                <p>Chocolate</p>
+                <p>Vanilla</p>
+              </p>
+
+            <p class="five">Boba Tea (12 oz)</p>
+              <p>Honeydew</p>
+              <p>Taro Powder</p>
+              <p>Chai</p>
+              <p>Vanilla</p>
+            <br>
+
+            <p class="six">Sandwiches & Wraps</p>
+              <p>The Griller</p>
+              <p>Chicken Salad</p>
+              <p>Peanut Butter & Jelly</p>
+              <p>Black Bean Burger (Vegan)</p>
+              <p>'That Wrap'</p>
+              <p>Black Bean Wrap (Vegan)</p>
+            <p class="seven">Salads</p>
+             <p>Greek Salad</p>
+             <p>Tex Mex Salad</p>
+              <p>Caesar Salad</p>
+             <p>Frozen Fruit Parfaits</p>
+             <br>
+             <form action="https://formspree.io/dklingbeil777@gmail.com" method="POST">
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+              <button type="submit">Send your message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Garden Menu -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>The Garden</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+    <script src="Webscraper/src/app.js"></script>
+    
+  </body>
+</html>
