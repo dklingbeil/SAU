@@ -146,20 +146,26 @@ html {
 .box1 {
   align-items: flex-start;
   flex-direction: column;
-  border-right: 2px solid black;
+  
   margin-right: 6px;
+  width: 330.84px;
+  height:1101.41px;
 }
 
 .box2 {
   flex-direction: column;
   flex: 1;
-  border-right: 2px solid black;
+  
   margin-right: 6px;
+  width: 330.84px;
+  height:1101.41px;
 }
 
 .box3 {
   align-items: flex-end;
   flex-direction: column;
+  width: 330.84px;
+  height:1101.41px;
 }
 .placeholder1 {
   height: 280px;
