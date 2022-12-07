@@ -149,7 +149,7 @@ html {
   
   margin-right: 6px;
   width: 330.84px;
-  height:1101.41px;
+  height: auto;
 }
 
 .box2 {
@@ -158,14 +158,14 @@ html {
   
   margin-right: 6px;
   width: 330.84px;
-  height:1101.41px;
+  height: auto;
 }
 
 .box3 {
   align-items: flex-end;
   flex-direction: column;
   width: 330.84px;
-  height:1101.41px;
+  height: auto;
 }
 .placeholder1 {
   height: 280px;
