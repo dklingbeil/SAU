@@ -1,0 +1,267 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#back2Top:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.welcome-section {
+  height: auto;
+  padding-top: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background: #fff;
+}
+
+.about-section {
+  height: auto;
+  min-height: 100px;
+  padding-top: 150px;
+  text-align: center;
+  background: #f6fc94;
+}
+
+.whatwedo-section {
+  height: auto;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact-section {
+  height: auto;
+  padding-top: 150px;
+  text-align: center;
+  background: #f6fc94;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.navbar-default {
+  background-color: #184f2c;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgb(255, 250, 250);
+}
+
+.one {
+  background-color: #f6fc94;
+}
+
+.two {
+  background-color: #f6fc94;
+}
+
+.three {
+  background-color: #f6fc94;
+}
+
+.four {
+  background-color: #f6fc94;
+}
+
+.five {
+  background-color: #f6fc94;
+}
+
+.six {
+  background-color: #f6fc94;
+}
+
+.seven {
+  background-color: #f6fc94;
+}
+
+.paragraph {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 600;
+  font-size: large;
+}
+
+.p2 {
+  font-family: "Patrick Hand", cursive;
+  font-size: large;
+}
+
+.p3 {
+  font-family: "Patrick Hand", cursive;
+  font-size: small;
+}
+
+#cafname {
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 5px 11px;
+  margin: 2px 2px 5px 2px;
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.button:focus {
+  background-color: #f6fc94;
+}
+
+#CK3 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+div.col-lg-13 {
+  max-width: 100%;
+  height: auto;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ibb.co/phNpZzx/ck2pic.jpg");
+  background-size: 100%;
+  background-size: convert;
+}
+
+.ckh1 {
+  color: white;
+}
+
+.box1 {
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 6px;
+  width: 330.84px;
+  height: auto;
+}
+
+.box2 {
+  flex-direction: column;
+  flex: 1;
+
+  margin-right: 6px;
+  width: 330.84px;
+  height: auto;
+}
+
+.box3 {
+  align-items: flex-end;
+  flex-direction: column;
+  width: 330.84px;
+  height: auto;
+}
+div.col-lg-14 {
+  max-width: 100%;
+  height: auto;
+  padding: 100px;
+  padding-bottom: 150px;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ibb.co/L8Cq0m8/kayak.jpg");
+  text-align: float;
+  background-size: 100%;
+  background-size: conver;
+}
+
+.kayak {
+  color: white;
+}
+
+.placeholder1 {
+  height: 280px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.Fruit {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.Base {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.Add {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.drink {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.Sandwich {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.Salad {
+  background-color: rgb(229, 225, 225);
+  border: 5px solid black;
+}
+
+.one {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#Finaldisplay {
+  border: 2px solid black;
+}
