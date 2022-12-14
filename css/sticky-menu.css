@@ -44,7 +44,7 @@ html {
 }
 
 #back2Top:hover {
-  background-color: #337ab7;
+  background-color: #184f2c;
   color: #fff;
 }
 
@@ -91,34 +91,6 @@ html {
 
 .navbar-default .navbar-nav > li > a {
   color: rgb(255, 250, 250);
-}
-
-.one {
-  background-color: #f6fc94;
-}
-
-.two {
-  background-color: #f6fc94;
-}
-
-.three {
-  background-color: #f6fc94;
-}
-
-.four {
-  background-color: #f6fc94;
-}
-
-.five {
-  background-color: #f6fc94;
-}
-
-.six {
-  background-color: #f6fc94;
-}
-
-.seven {
-  background-color: #f6fc94;
 }
 
 .paragraph {
@@ -172,12 +144,12 @@ div.col-lg-13 {
 
 .ckh1 {
   color: white;
+  padding: 110px;
 }
 
 .box1 {
   align-items: flex-start;
   flex-direction: column;
-
   margin-right: 6px;
   width: 330.84px;
   height: auto;
@@ -198,6 +170,8 @@ div.col-lg-13 {
   width: 330.84px;
   height: auto;
 }
+
+
 div.col-lg-14 {
   max-width: 100%;
   height: auto;
@@ -208,10 +182,11 @@ div.col-lg-14 {
 
 .kayak {
   color: white;
+  padding: 70px;
 }
 
 .placeholder1 {
-  height: 280px;
+  height: auto;
 }
 
 .cont {
@@ -221,39 +196,111 @@ div.col-lg-14 {
   gap: 20px;
 }
 
+.cont1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.sub {
+  font-size: xx-small;
+}
+
+.sub2 {
+  font-size: x-small;
+}
+
+.one {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.two {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.three {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.four {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.five {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.six {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.seven {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.eight {
+  background-color: #184f2c;
+  color: white;
+  font-weight: bold;
+}
+
+.extra {
+  background-color: #184f2c;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.Specialty {
+  background-color: rgb(229, 225, 225);
+  padding: 5px;
+}
+
 .Fruit {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
+  padding: 5px;
 }
 
 .Base {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
+  padding: 5px;
 }
 
 .Add {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
+  padding: 5px;
 }
 
 .drink {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
+  padding: 5px;
 }
 
 .Sandwich {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
+  padding: 5px;
 }
 
-.Salad {
+.Other {
   background-color: rgb(229, 225, 225);
-  border: 5px solid black;
-}
-
-.one {
-  font-size: larger;
-  font-weight: bolder;
+  padding: 5px;
 }
 
 #Finaldisplay {
@@ -265,16 +312,15 @@ div.col-lg-14 {
   background-repeat: no-repeat;
   background-image: url("https://i.ibb.co/L8Cq0m8/kayak.jpg");
   background-size: cover;
-  border: #333 solid 2px;
   height: 175px;
 }
+
 @media only screeen and (max-width: 600px) {
   .cont {
     flex-direction: column;
   }
 }
 .ck2pic {
-  border: 5px solid black;
   background-image: url(https://i.ibb.co/7RYmYBT/ck2-hero.jpg);
   background-size: 100% 100%;
   background-size: cover;
@@ -283,3 +329,4 @@ div.col-lg-14 {
   height: 250px;
   padding: 10px, 10px, 10px, 10px;
 }
+
